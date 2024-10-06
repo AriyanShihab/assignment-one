@@ -5,7 +5,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px] bg-gray-100"
+      className="bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px] "
     >
       <div className="container mx-auto">
         <div>
@@ -26,10 +26,7 @@ export default function AboutSection() {
                   interactive panel.
                 </p>
 
-                <a
-                  
-                  className="inline-flex items-center justify-center rounded-md border border-blue-600 bg-blue-600 px-7 py-3 text-center text-base font-medium text-white hover:border-blue-dark hover:bg-blue-dark"
-                >
+                <a className="inline-flex items-center justify-center rounded-md border border-blue-600 bg-blue-600 px-7 py-3 text-center text-base font-medium text-white hover:border-blue-dark hover:bg-blue-dark">
                   Know More
                 </a>
               </div>
