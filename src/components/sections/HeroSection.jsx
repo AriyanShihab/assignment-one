@@ -47,7 +47,7 @@ export default function HeroSection() {
             <div className=" relative z-10 mx-auto max-w-[845px]">
               <div className="mt-16">
                 <img
-                  src="./src/assets/hero-image.png"
+                  src="./assets/hero-image.png"
                   alt="hero"
                   className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
                 />

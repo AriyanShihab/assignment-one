@@ -11,7 +11,7 @@ export default function Navber() {
               className="navbar-logo block w-60 max-w-full px-4"
             >
               <img
-                src="src/assets/logo.svg"
+                src="./assets/logo.svg"
                 alt="logo"
                 className="header-logo h-12"
               />

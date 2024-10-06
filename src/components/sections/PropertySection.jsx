@@ -8,7 +8,7 @@ export default function PropertySection() {
   const apartments = [
     {
       id: 1,
-      image: "./src/assets/room-1.avif",
+      image: "./assets/room-1.avif",
       apartmentName: "Luxury Loft",
       rentPerMonth: 2500,
       numberOfRooms: 3,
@@ -16,7 +16,7 @@ export default function PropertySection() {
     },
     {
       id: 2,
-      image: "./src/assets/room-2.avif",
+      image: "./assets/room-2.avif",
       apartmentName: "Modern Studio",
       rentPerMonth: 1500,
       numberOfRooms: 1,
@@ -24,7 +24,7 @@ export default function PropertySection() {
     },
     {
       id: 3,
-      image: "./src/assets/room-3.avif",
+      image: "./assets/room-3.avif",
       apartmentName: "Cozy Cottage",
       rentPerMonth: 1800,
       numberOfRooms: 2,
@@ -32,7 +32,7 @@ export default function PropertySection() {
     },
     {
       id: 4,
-      image: "./src/assets/room-4.avif",
+      image: "./assets/room-4.avif",
       apartmentName: "Urban Apartment",
       rentPerMonth: 2200,
       numberOfRooms: 2,
@@ -40,7 +40,7 @@ export default function PropertySection() {
     },
     {
       id: 5,
-      image: "./src/assets/room-5.avif",
+      image: "./assets/room-5.avif",
       apartmentName: "Spacious Penthouse",
       rentPerMonth: 3500,
       numberOfRooms: 4,
@@ -48,7 +48,7 @@ export default function PropertySection() {
     },
     {
       id: 6,
-      image: "./src/assets/room-6.avif",
+      image: "./assets/room-6.avif",
       apartmentName: "Charming Duplex",
       rentPerMonth: 2800,
       numberOfRooms: 3,

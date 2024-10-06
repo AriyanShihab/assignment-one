@@ -16,25 +16,25 @@ export default function ClientSection() {
       id: 1,
       name: "Melissa Tatcher",
       post: "Marketing Expert",
-      img: "./src/assets/team-01.png",
+      img: "./assets/team-01.png",
     },
     {
       id: 2,
       name: "Stuard Ferrel",
       post: "Digital Marketer",
-      img: "./src/assets/image-02.png",
+      img: "./assets/image-02.png",
     },
     {
       id: 3,
       name: "Eva Hudson",
       post: "Creative Designer",
-      img: "./src/assets/image-03.png",
+      img: "./assets/image-03.png",
     },
     {
       id: 4,
       name: "Jackie Sanders",
       post: "Founder of Facebook",
-      img: "./src/assets/image-04.png",
+      img: "./assets/image-04.png",
     },
   ];
   return (

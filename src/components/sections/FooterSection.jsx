@@ -14,12 +14,12 @@ export default function FooterSection() {
   const blogs = [
     {
       id: 2,
-      image: "./src/assets/blog-footer-01.jpg",
+      image: "./assets/blog-footer-01.jpg",
       title: " I think really important to design with...",
     },
     {
       id: 2,
-      image: "./src/assets/blog-footer-02.jpg",
+      image: "./assets/blog-footer-02.jpg",
       title: " Recognizing the need is the primary...",
     },
   ];
@@ -34,7 +34,7 @@ export default function FooterSection() {
                 className="mb-6 inline-block  max-h-[100px]"
               >
                 <img
-                  src="./src/assets/logo.svg"
+                  src="./assets/logo.svg"
                   alt="logo"
                   className="max-w-full"
                 />
