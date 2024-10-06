@@ -26,7 +26,7 @@ export default function FooterSection() {
   return (
     <footer className=" relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]">
       <div className="container mx-auto">
-        <div className="flex ">
+        <div className="flex flex-col md:flex-row ">
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
             <div className="mb-10 w-full">
               <a

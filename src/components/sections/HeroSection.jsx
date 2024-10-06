@@ -7,10 +7,10 @@ export default function HeroSection() {
   return (
     <div
       
-      className="relative overflow-hidden bg-blue-600 pt-[120px] md:pt-[130px] lg:pt-[160px]"
+      className="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
     >
         <Navber></Navber>
-      <div className="container mx-auto">
+      <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4">
             <div className="hero-content  mx-auto max-w-[780px] text-center">

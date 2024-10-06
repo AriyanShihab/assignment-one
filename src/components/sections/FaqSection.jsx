@@ -1,6 +1,8 @@
 import React from "react";
 import SectionHeader from "../../utils/SectionHeader";
 import FaqCard from "../cards/FaqCard";
+import FaqTopSvg from "../../svg/FaqTopSvg";
+import FaqBottomSvg from "../../svg/FaqBottomSvg";
 
 export default function FaqSection() {
   // section header data
@@ -46,11 +48,13 @@ export default function FaqSection() {
           description={sectionDescription}
         ></SectionHeader>
         <div className="-mx-4 flex  flex-wrap px-8">
-          {/* <div className=" w-full px-4 lg:w-1/2"> */}
-            {realEstateFAQs.map((faq) => (
-              <FaqCard key={faq.id} faq={faq}></FaqCard>
-            ))}
-          {/* </div> */}
+          {realEstateFAQs.map((faq) => (
+            <FaqCard key={faq.id} faq={faq}></FaqCard>
+          ))}
+        </div>
+        <div>
+          <FaqTopSvg></FaqTopSvg>
+          <FaqBottomSvg></FaqBottomSvg>
         </div>
       </div>
     </section>

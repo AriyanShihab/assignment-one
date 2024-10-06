@@ -2,7 +2,7 @@ import React from "react";
 // if there is no info 2, it will render nothing
 export default function ContactCard({ svgType, title, info1, info2 = null }) {
   return (
-    <div className="mb-8 flex w-1/2 max-w-full">
+    <div className="mb-8 flex md:w-1/2 max-w-full">
       <div className="mr-6 text-[32px] text-blue-600">{svgType}</div>
       <div>
         <h5 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
