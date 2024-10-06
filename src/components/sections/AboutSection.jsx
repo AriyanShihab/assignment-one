@@ -1,5 +1,6 @@
 import React from "react";
 import AboutSmallBg from "../../svg/AboutSmallBg";
+import Button from "../../utils/Button";
 
 export default function AboutSection() {
   return (
@@ -26,9 +27,8 @@ export default function AboutSection() {
                   interactive panel.
                 </p>
 
-                <a className="inline-flex items-center justify-center rounded-md border border-blue-600 bg-blue-600 px-7 py-3 text-center text-base font-medium text-white hover:border-blue-dark hover:bg-blue-dark">
-                  Know More
-                </a>
+               
+                <Button text={'Know More'} textColor={"text-white"} bgColor={"bg-blue-600"} hoverBgColor={'bg-blue-dark'}></Button>
               </div>
             </div>
 
