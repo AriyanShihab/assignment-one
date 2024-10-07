@@ -29,6 +29,7 @@ export default function Navber() {
               >
                 Sign In
               </a>
+              
               <a
                 href="signup.html"
                 className="signUpBtn rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-gray-800"

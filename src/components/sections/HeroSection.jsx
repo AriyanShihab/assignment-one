@@ -24,8 +24,8 @@ export default function HeroSection() {
                     text={"Book Now"}
                     textColor={"text-dark"}
                     bgColor={"bg-white"}
-                    hoverTextColor={"text-gray-500"}
-                    hoverBgColor={"bg-gray-2"}
+                    hoverTextColor={"hover:text-gray-500"}
+                    hoverBgColor={"hover:bg-gray-200"}
                   ></Button>
                 </li>
                 <li>
@@ -33,8 +33,8 @@ export default function HeroSection() {
                     text={"Conatct Us"}
                     textColor={"text-white"}
                     bgColor={"bg-white/[0.12]"}
-                    hoverTextColor={"text-gray-800"}
-                    hoverBgColor={"bg-white"}
+                    hoverTextColor={"hover:text-gray-800"}
+                    hoverBgColor={"hover:bg-gray-100"}
                   ></Button>
                 </li>
               </ul>

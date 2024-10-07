@@ -1,6 +1,7 @@
 import React from "react";
 import CallToActionOne from "../../svg/CallToActionOne";
 import CallToActionTwo from "../../svg/CallToActionTwo";
+import Button from "../../utils/Button";
 
 export default function CallToActionSection() {
   return (
@@ -20,12 +21,14 @@ export default function CallToActionSection() {
                   There are many variations of passages of Lorem Ipsum but the
                   majority have suffered in some form.
                 </p>
-                <a
-                  href="javascript:void(0)"
-                  className="inline-block rounded-md border border-transparent bg-green-400 px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
-                >
-                  Let's have a meeting
-                </a>
+                
+
+                <Button
+                  text={"Let's have a meeting"}
+                  textColor={"text-white"}
+                  bgColor={"bg-secondary"}
+                  hoverBgColor={"hover:bg-[#0BB489]"}
+                ></Button>
               </div>
             </div>
           </div>

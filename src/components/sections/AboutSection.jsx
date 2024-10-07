@@ -27,8 +27,12 @@ export default function AboutSection() {
                   interactive panel.
                 </p>
 
-               
-                <Button text={'Know More'} textColor={"text-white"} bgColor={"bg-blue-600"} hoverBgColor={'bg-blue-dark'}></Button>
+                <Button
+                  text={"Know More"}
+                  textColor={"text-white"}
+                  bgColor={"bg-blue-600"}
+                  hoverBgColor={"hover:bg-blue-dark"}
+                ></Button>
               </div>
             </div>
 
