@@ -16,7 +16,7 @@ export default function FeatureCard({ property }) {
           {description}
         </p>
         <a
-          href="javascript:void(0)"
+          
           className="text-base font-medium text-dark hover:text-blue-600 dark:text-white dark:hover:text-primary"
         >
           {linkText}

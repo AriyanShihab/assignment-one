@@ -11,7 +11,7 @@ export default function Form() {
         <form>
           <div className="mb-[22px]">
             <label
-              for="fullName"
+              htmlFor="fullName"
               className="mb-4 block text-sm text-body-color dark:text-dark-6"
             >
               Full Name*
@@ -25,7 +25,7 @@ export default function Form() {
           </div>
           <div className="mb-[22px]">
             <label
-              for="email"
+              htmlFor="email"
               className="mb-4 block text-sm text-body-color dark:text-dark-6"
             >
               Email*
@@ -39,7 +39,7 @@ export default function Form() {
           </div>
           <div className="mb-[22px]">
             <label
-              for="phone"
+              htmlFor="phone"
               className="mb-4 block text-sm text-body-color dark:text-dark-6"
             >
               Phone*
@@ -53,7 +53,7 @@ export default function Form() {
           </div>
           <div className="mb-[30px]">
             <label
-              for="message"
+              htmlFor="message"
               className="mb-4 block text-sm text-body-color dark:text-dark-6"
             >
               Message*
@@ -66,7 +66,6 @@ export default function Form() {
             ></textarea>
           </div>
           <div className="mb-0">
-            
             <Button
               text={"Send"}
               textColor={"text-white"}

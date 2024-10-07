@@ -29,19 +29,19 @@ export default function ClientCard({ client }) {
           </p>
           <div className="flex items-center justify-center gap-5">
             <a
-              href="javascript:void(0)"
+              
               className="text-gray-400 hover:text-primary"
             >
               {<FacebookSvg></FacebookSvg>}
             </a>
             <a
-              href="javascript:void(0)"
+             
               className="text-gray-400 hover:text-primary"
             >
               {<TwitterSvg></TwitterSvg>}
             </a>
             <a
-              href="javascript:void(0)"
+             
               className="text-gray-400 hover:text-primary"
             >
               {<InstaSvg></InstaSvg>}

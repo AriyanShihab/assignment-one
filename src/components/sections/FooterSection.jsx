@@ -13,7 +13,7 @@ export default function FooterSection() {
   const aboutUsMenuItem = ["Home", "Features", "About"];
   const blogs = [
     {
-      id: 2,
+      id: 1,
       image: "./assets/blog-footer-01.jpg",
       title: " I think really important to design with...",
     },
@@ -30,7 +30,7 @@ export default function FooterSection() {
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
             <div className="mb-10 w-full">
               <a
-                href="javascript:void(0)"
+               
                 className="mb-6 inline-block  max-h-[100px]"
               >
                 <img
