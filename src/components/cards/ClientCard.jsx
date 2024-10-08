@@ -1,8 +1,6 @@
 import React from "react";
-import FacebookSvg from "../../svg/FacebookSvg";
 import HoverSvg from "../../svg/HoverSvg";
-import InstaSvg from "../../svg/InstaSvg";
-import TwitterSvg from "../../svg/TwitterSvg";
+import SocialMenuForClientCard from "../../utils/SocialMenuForClientCard";
 
 export default function ClientCard({ client }) {
   const { img, name, post: profession } = client;
@@ -28,24 +26,7 @@ export default function ClientCard({ client }) {
             {profession}
           </p>
           <div className="flex items-center justify-center gap-5">
-            <a
-              
-              className="text-gray-400 hover:text-primary"
-            >
-              {<FacebookSvg></FacebookSvg>}
-            </a>
-            <a
-             
-              className="text-gray-400 hover:text-primary"
-            >
-              {<TwitterSvg></TwitterSvg>}
-            </a>
-            <a
-             
-              className="text-gray-400 hover:text-primary"
-            >
-              {<InstaSvg></InstaSvg>}
-            </a>
+            <SocialMenuForClientCard />
           </div>
         </div>
       </div>
