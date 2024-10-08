@@ -1,15 +1,17 @@
 import React from "react";
+import FaqBottomSvg from "../../svg/FaqBottomSvg";
+import FaqTopSvg from "../../svg/FaqTopSvg";
 import SectionHeader from "../../utils/SectionHeader";
 import FaqCard from "../cards/FaqCard";
-import FaqTopSvg from "../../svg/FaqTopSvg";
-import FaqBottomSvg from "../../svg/FaqBottomSvg";
 
 export default function FaqSection() {
   // section header data
-  let sectionTitle = "FAQ";
-  let sectionHeader = "Any Questions? Look Here";
-  let sectionDescription =
-    "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.";
+  const sectionHeaderData = {
+    sectionTitle: "FAQ",
+    sectionHeading: "Any Questions? Look Here",
+    sectionDescription:
+      "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+  };
 
   // question and answers, own created data...
   let realEstateFAQs = [
@@ -42,11 +44,7 @@ export default function FaqSection() {
   return (
     <section className="relative z-20 overflow-hidden bg-white pb-8 pt-20 dark:bg-dark lg:pb-[50px] lg:pt-[120px]">
       <div className="container mx-auto">
-        <SectionHeader
-          title={sectionTitle}
-          heading={sectionHeader}
-          description={sectionDescription}
-        ></SectionHeader>
+        <SectionHeader data={sectionHeaderData}></SectionHeader>
         <div className="-mx-4 flex  flex-wrap px-8">
           {realEstateFAQs.map((faq) => (
             <FaqCard key={faq.id} faq={faq}></FaqCard>

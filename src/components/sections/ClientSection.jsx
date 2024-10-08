@@ -4,10 +4,12 @@ import ClientCard from "../cards/ClientCard";
 
 export default function ClientSection() {
   // data for section header component
-  let sectionTitle = "Our Team Members";
-  let sectionHeading = "Our Clients";
-  let sectionDescription =
-    "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.";
+  const sectionHeaderData = {
+    sectionTitle: "Our Team Members",
+    sectionHeading: "Our Clients",
+    sectionDescription:
+      "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+  };
 
   // clients data for mapping to render clientCard Component
 
@@ -41,10 +43,7 @@ export default function ClientSection() {
     <section className="overflow-hidden bg-gray-100/50 pb-12 pt-20 dark:bg-dark-2 lg:pb-[90px] lg:pt-[120px]">
       <div className="container mx-auto">
         <div className="">
-          <SectionHeader
-            title={sectionTitle}
-            heading={sectionHeading}
-            description={sectionDescription}
+          <SectionHeader data={sectionHeaderData}
           ></SectionHeader>
         </div>
         <div className="-mx-4 flex flex-wrap justify-center">

@@ -8,14 +8,15 @@ import FeatureCard from "../cards/FeatureCard";
 
 export default function FeaturesSection() {
   // data for sectionheder components
-  let sectionTitle = "Features";
-  let sectionHeading = "Main Features Of Play";
-  let sectionDescription =
-    "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.";
-
+  const sectionHeaderData = {
+    sectionTitle: "Features",
+    sectionHeading: "Main Features Of Play",
+    sectionDescription:
+      "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+  };
   // data for feature section cards
   // well, this code may look bad, but for diffarent svg icon I have to implimrent this aproch.
-  //   we can also call the FeatureCard componets four times with difarent props, but that  can't good patter at all
+  //   we can also call the FeatureCard componets four times with difarent props, but that  can't be a good patter at all
   const propertyListings = [
     {
       id: 11,
@@ -56,9 +57,7 @@ export default function FeaturesSection() {
       <div className="container mx-auto">
         {
           <SectionHeader
-            title={sectionTitle}
-            heading={sectionHeading}
-            description={sectionDescription}
+            data={sectionHeaderData}
           ></SectionHeader>
         }
         <div className="-mx-4 flex flex-wrap">

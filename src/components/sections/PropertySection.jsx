@@ -55,20 +55,15 @@ export default function PropertySection() {
       numberOfBathrooms: 2,
     },
   ];
-  let sectionTitle = "Properties";
-  let sectionHeading = "Grab your Dream Property";
-  let sectionDescription =
-    "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.";
-
+  const sectionHeaderData = {
+    sectionTitle: "Properties",
+    sectionHeading: "Grab your Dream Property",
+    sectionDescription:
+      "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+  };
   return (
     <div className="container mx-auto py-16">
-      {
-        <SectionHeader
-          title={sectionTitle}
-          heading={sectionHeading}
-          description={sectionDescription}
-        ></SectionHeader>
-      }
+      {<SectionHeader data={sectionHeaderData}></SectionHeader>}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {apartments.map((apartment) => (
           <PropertyCard
