@@ -1,16 +1,17 @@
 import React from "react";
-import getUniqueID from "./getRandomId";
+
 
 export default function VerticalMenu({ items }) {
+  
   return (
     <ul>
-      {items.map((item, index) => (
-        <li key={getUniqueID(item, index)}>
+      {items.map((item) => (
+        <li key={item.id} >
           <a
             
             className="mb-3 inline-block text-base text-gray-200 hover:text-blue-600"
           >
-            {item}
+            {item.label}
           </a>
         </li>
       ))}

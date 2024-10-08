@@ -12,15 +12,15 @@ import PropertySection from "./components/sections/PropertySection";
 export default function App() {
   return (
     <>
-      <HeroSection></HeroSection>
-      <FeaturesSection></FeaturesSection>
-      <PropertySection></PropertySection>
-      <AboutSection></AboutSection>
-      <CallToActionSection></CallToActionSection>
-      <FaqSection></FaqSection>
-      <ClientSection></ClientSection>
-      <ContactSection></ContactSection>
-      <FooterSection></FooterSection>
+      <HeroSection />
+      <FeaturesSection />
+      <PropertySection />
+      <AboutSection />
+      <CallToActionSection />
+      <FaqSection />
+      <ClientSection />
+      <ContactSection />
+      <FooterSection />
     </>
   );
 }

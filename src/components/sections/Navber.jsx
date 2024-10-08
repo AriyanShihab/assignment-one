@@ -2,7 +2,12 @@ import React from "react";
 import HorizontalMenu from "../../utils/HorizontalMenu";
 
 export default function Navber() {
-  const itemsForHorizontalMenu = ["Home", "About", "Pricing", "Blog"];
+  const itemsForHorizontalMenu = [
+    { id: "item-1", label: "Home" },
+    { id: "item-2", label: "About" },
+    { id: "item-3", label: "Pricing" },
+    { id: "item-4", label: "Blog" },
+  ];
   return (
     <div className="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent">
       <div className="container mx-auto">

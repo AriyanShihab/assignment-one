@@ -5,12 +5,16 @@ import BlogList from "../cards/BlogList";
 
 export default function FooterSection() {
   const featuresMenuItems = [
-    "How it works",
-    "Privacy policy",
-    "Terms  of Service",
-    "Refund policy",
+    { id: "item-1", label: "How it works" },
+    { id: "item-2", label: "Privacy policy" },
+    { id: "item-3", label: "Terms of Service" },
+    { id: "item-4", label: "Refund policy" },
   ];
-  const aboutUsMenuItem = ["Home", "Features", "About"];
+  const aboutUsMenuItem = [
+    { id: "item-1", label: "Home" },
+    { id: "item-2", label: "Features" },
+    { id: "item-3", label: "About" },
+  ];
   const blogs = [
     {
       id: 1,
@@ -29,10 +33,7 @@ export default function FooterSection() {
         <div className="flex flex-col md:flex-row ">
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
             <div className="mb-10 w-full">
-              <a
-               
-                className="mb-6 inline-block  max-h-[100px]"
-              >
+              <a className="mb-6 inline-block  max-h-[100px]">
                 <img
                   src="./assets/logo.svg"
                   alt="logo"
